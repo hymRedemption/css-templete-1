@@ -1,0 +1,43 @@
+.comment {
+  padding: 15px;
+  border: 1px solid #E3E3E3;
+  border-radius: 1px;
+  background-color: #F5F5F5;
+  margin-bottom: 20px;
+}
+
+.comment__imgdiv {
+  display: table-cell;
+  vertical-align: top;
+  padding-right: 10px;
+}
+
+.comment__imgdiv__img {
+  max-width: 70px;
+}
+
+.comment__info {
+  display: table-cell;
+  vertical-align: top;
+}
+
+h4.comment__info__title {
+  margin: 0px;
+}
+
+h4.comment__info__title > a {
+  color: #337AB7;
+  text-decoration: none;
+}
+
+h4.comment__info__title > a:hover {
+  color: black;
+}
+
+
+.comment__info__content {
+}
+
+.comment__info__vote {
+}
+

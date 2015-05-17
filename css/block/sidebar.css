@@ -1,0 +1,23 @@
+.sidebar {
+  border-radius: 2px;
+  border: 1px solid #CCC;
+  margin-bottom: 20px;
+}
+
+
+.sidebar__title {
+  font-weight: 700px;
+  background-color: #F5F5F5;
+  border-bottom: 1px solid #DDD;
+  text-align: left;
+  font-size: 16px;
+  padding: 15px;
+}
+
+.sidebar__title > h4 {
+  margin: 0px;
+}
+
+.sidebar__content {
+  padding: 20px 15px;
+}

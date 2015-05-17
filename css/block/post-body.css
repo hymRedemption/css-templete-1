@@ -1,0 +1,18 @@
+.post-body {
+
+}
+
+img.post-body__image {
+  display: block;
+  max-width: 100%;
+}
+
+.post-body__caption {
+}
+
+p.post-body__lead {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+

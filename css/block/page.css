@@ -1,0 +1,38 @@
+.page {
+  width: 100%;
+  padding: 0px;
+}
+
+.page:before {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.page:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.page__pre > a{
+  float: left;
+}
+
+.page__next > a{
+  float: right;
+}
+
+.page > li {
+  display: inline;
+}
+
+.page > li:after {
+  content: "";
+  clear: both;
+}
+
+.page > li:before {
+  content: "";
+  clear: both;
+}

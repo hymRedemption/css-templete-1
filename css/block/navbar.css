@@ -1,0 +1,61 @@
+.navbar {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: #222;
+  padding: 0px 50px;
+}
+
+.navbar a {
+  color: #9D9D9D;
+  text-decoration: none;
+  line-height: 20px
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+.navbar__title {
+  font-size: 18px;
+  float: left;
+  padding: 15px;
+  width: 100px;
+}
+
+.navbar__title__log {
+  float: left;
+}
+
+ul.navbar__nav {
+  float: left;
+  margin: auto;
+  padding: 0px
+}
+
+ul.navbar__nav > li {
+  float: left;
+  padding: 15px 15px;
+  margin: auto;
+}
+
+.navbar__title__toggle {
+  float: right;
+}
+
+@media (min-width: 700px) {
+  .navbar__title__toggle {
+    display: none;
+  }
+
+}
+
+@media (max-width: 699px) {
+  ul.navbar__nav {
+    display: none;
+  }
+  .navbar__title {
+    width: 100%;
+  }
+}

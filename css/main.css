@@ -1,0 +1,17 @@
+@import './block/navbar.css';
+@import './block/content.css';
+@import './block/post-title.css';
+@import './block/footer.css';
+@import './block/post-body.css';
+@import './block/search.css';
+@import './block/sidebar.css';
+@import './block/comment.css';
+@import './block/comments.css';
+@import './block/btn.css';
+@import './block/form.css';
+@import './block/page.css';
+
+hr {
+  color: #EEE;
+}
+

@@ -1,0 +1,25 @@
+.btn {
+  border: 1px solid #CCC;
+  background-color: #FFF;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: black;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  background-color: #CCC;
+  border: 1px solid rgb(132, 132, 132);
+}
+
+.btn--ellipsoid {
+  border-radius: 10px;
+  color: #337AB7;
+}
+
+.btn--ellipsoid:hover {
+  color: #23527C;
+
+}
+
+
